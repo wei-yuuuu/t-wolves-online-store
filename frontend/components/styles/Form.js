@@ -3,12 +3,10 @@ import styled, { keyframes } from 'styled-components'
 const loading = keyframes`
   from {
     background-position: 0 0;
-    /* rotate: 0; */
   }
 
   to {
     background-position: 100% 100%;
-    /* rotate: 360deg; */
   }
 `
 
@@ -22,7 +20,7 @@ const Form = styled.form`
   font-weight: 600;
   label {
     display: block;
-    margin-bottom: 1rem;
+    margin: 2.5rem 0;
   }
   input,
   textarea,
@@ -33,13 +31,13 @@ const Form = styled.form`
     border: 1px solid black;
     &:focus {
       outline: 0;
-      border-color: ${props => props.theme.red};
+      border-color: ${props => props.theme.blue};
     }
   }
   button,
   input[type='submit'] {
     width: auto;
-    background: red;
+    background: #051d3e;
     color: white;
     border: 0;
     font-size: 2rem;
@@ -59,9 +57,9 @@ const Form = styled.form`
       display: block;
       background-image: linear-gradient(
         to right,
-        #ff3019 0%,
-        #e2b04a 50%,
-        #ff3019 100%
+        #a0a3a3 0%,
+        #1f6194 50%,
+        #051d3e 100%
       );
     }
     &[aria-busy='true']::before {
