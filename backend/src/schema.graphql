@@ -18,4 +18,5 @@ type Query {
   #  input ItemWhereUniqueInput {
   #    id: ID
   #  }
+  itemsConnection(where: ItemWhereInput): ItemConnection!
 }
