@@ -15,4 +15,7 @@ type Mutation {
 type Query {
   items: [Item]!
   item(where: ItemWhereUniqueInput!): Item
+  #  input ItemWhereUniqueInput {
+  #    id: ID
+  #  }
 }
