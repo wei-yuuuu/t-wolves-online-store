@@ -25,4 +25,5 @@ type Query {
   #    id: ID
   #  }
   itemsConnection(where: ItemWhereInput): ItemConnection!
+  me: User
 }
