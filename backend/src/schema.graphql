@@ -33,9 +33,14 @@ type Query {
     first: Int
   ): [Item]!
   item(where: ItemWhereUniqueInput!): Item
-  #  input ItemWhereUniqueInput {
-  #    id: ID
-  #  }
   itemsConnection(where: ItemWhereInput): ItemConnection!
   me: User
+  users: [User]!
+}
+
+type User{
+  id: ID!
+  name: String!
+  email: String!
+  permissions: [Permission!]!
 }
