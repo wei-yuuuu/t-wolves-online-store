@@ -1,7 +1,8 @@
-import gql from 'graphql-tag'
 import React from 'react'
 import { Mutation } from 'react-apollo'
 import StripeCheckout from 'react-stripe-checkout'
+import gql from 'graphql-tag'
+
 import calcTotalPrice from '../lib/calcTotalPrice'
 import User, { CURRENT_USER_QUERY } from './User'
 
