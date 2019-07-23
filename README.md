@@ -23,11 +23,11 @@ The project for the Advanced React & GraphQL course by Wes Bos.
   - signup
   - signin
   - signout
-  - resetPassword (nodemailer, mailtrap)
+  - resetPassword (nodemailer, mailtrap for sending resetRequest)
   - updatePermissions
   - jwt authentication
 - item
-  - createItem
+  - createItem (cloudinary for uploading images)
   - updateItem
   - deleteItem
   - pagination
@@ -41,3 +41,4 @@ The project for the Advanced React & GraphQL course by Wes Bos.
 #### Third party API
 - Stripe API
 - Mailtrap API
+- Cloudinary API
