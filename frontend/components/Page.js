@@ -46,6 +46,7 @@ injectGlobal`
     font-size: 1.5rem;
     line-height: 2;
     font-family: 'News Cycle';
+    position: relative;
   }
   a {
     text-decoration: none;

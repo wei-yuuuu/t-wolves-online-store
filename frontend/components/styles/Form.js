@@ -18,6 +18,7 @@ const Form = styled.form`
   font-size: 1.5rem;
   line-height: 1.5;
   font-weight: 600;
+  margin-top: 25rem;
   label {
     display: block;
     margin: 2.5rem 0;

@@ -13,6 +13,7 @@ const SingleItemStyles = styled.div`
   grid-auto-columns: 1fr;
   grid-auto-flow: column;
   min-height: 800px;
+  margin-top: 25rem;
   img {
     width: 100%;
     height: 100%;

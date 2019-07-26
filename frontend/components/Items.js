@@ -21,6 +21,7 @@ const ALL_ITEMS_QUERY = gql`
 
 const Center = styled.div`
   text-align: center;
+  margin-top: 20rem;
 `
 
 const ItemsList = styled.div`

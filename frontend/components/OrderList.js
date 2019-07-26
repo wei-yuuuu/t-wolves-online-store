@@ -45,7 +45,7 @@ class OrderList extends React.Component {
           if (error) return <Error erorr={error} />
           console.log(orders)
           return (
-            <div>
+            <div style={{ marginTop: '22rem' }}>
               <h2>You have {orders.length} orders</h2>
               <orderUl>
                 {orders.map(order => (
