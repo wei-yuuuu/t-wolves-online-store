@@ -24,7 +24,7 @@ const Nav = () => (
             <Link href="/orders">
               <a>Orders</a>
             </Link>
-            <Link href="/me">
+            <Link href="/permissions">
               <a>Account</a>
             </Link>
             <Signout />
