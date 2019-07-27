@@ -42,3 +42,13 @@ The project for the Advanced React & GraphQL course by Wes Bos.
 - Stripe API
 - Mailtrap API
 - Cloudinary API
+
+#### Deploy
+- Now: minny-twolves-frontend
+- Prisma
+  - Sever: t-wolves-production
+  - Service: t-wolves-prod
+- Heroku
+  - t-wolves-production-cb110415f9 (container Europe)
+  - t-wolves-next-prod (Node.js United States)
+  - t-wolves-yoga-prod (Node.js United States)
