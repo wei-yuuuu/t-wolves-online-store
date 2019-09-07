@@ -2,6 +2,10 @@
 Minnesota Timberwolves' s online store.<br>
 The project for the Advanced React & GraphQL course by Wes Bos.
 
+#### Test User
+- Account: test@gmail.com
+- Password: 123456789
+
 #### Frontend
 - react v16.5.2
 - next v7.0.0 (server side rendering)
